@@ -30,10 +30,3 @@ df = df[["First_Name", "Last_Name", "State", "Party", "Class"]]
 
 sns.countplot(x="Party", hue = "Class", data = df)
 plt.show()
-
-
-
-
-
-
-
